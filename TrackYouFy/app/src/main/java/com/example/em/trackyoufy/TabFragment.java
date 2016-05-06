@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 /**
  * Created by emiliaaxen on 16-05-05.
  */
-public class SpotifyTabFragment extends Fragment {
+public class TabFragment extends Fragment {
     public static TabLayout tabLayout;
     public static ViewPager viewPager;
     public static int int_items = 3 ;
@@ -57,8 +57,8 @@ public class SpotifyTabFragment extends Fragment {
         public Fragment getItem(int position)
         {
             switch (position){
-                case 0 : return new SpotifyTabFragment();
-                case 1 : return new YouTubeTabFragment();
+                case 0 : return new SpotifyFragment();
+                case 1 : return new YouTubeFragment();
                 case 2 : return new PodCastTabFragment();
             }
             return null;
