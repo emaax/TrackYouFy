@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item android:title="Compose" android:id="@+id/navigation_item_2"
+            android:icon="@android:drawable/ic_menu_compass" >
+
+        </item>
+        <item android:title="Spotify"  android:icon="@drawable/spotify_icon" >
+
+        </item>
+        <item android:title="Youtube" android:icon="@drawable/youtube_icon">
+
+        </item>
+        <item android:title="Podcasts" android:icon="@drawable/podcast_icon">
+
+        </item>
+
+</menu>

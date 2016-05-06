@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TrackYouFy</string>
+    <string name="album_description">Album Description</string>
+    <string name="list_album_name">List item album Name</string>
+    <string name="list_item_track_name">List item track nam</string>
+    <string name="action_settings">Settings</string>
+
 </resources>
