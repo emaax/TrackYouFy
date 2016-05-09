@@ -2,18 +2,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-        <item android:title="Compose" android:id="@+id/navigation_item_2"
-            android:icon="@android:drawable/ic_menu_compass" >
+    <item
+        android:id="@+id/navigation_item_2"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Compose">
 
-        </item>
-        <item android:title="Spotify"  android:icon="@drawable/spotify_icon" >
+    </item>
+    <item
+        android:icon="@drawable/spotify_icon"
+        android:title="Spotify">
 
-        </item>
-        <item android:title="Youtube" android:icon="@drawable/youtube_icon">
+    </item>
+    <item
+        android:icon="@drawable/youtube_icon"
+        android:title="Youtube">
 
-        </item>
-        <item android:title="Podcasts" android:icon="@drawable/podcast_icon">
+    </item>
+    <item
+        android:icon="@drawable/podcast_icon"
+        android:title="Podcasts">
 
-        </item>
+    </item>
 
 </menu>
