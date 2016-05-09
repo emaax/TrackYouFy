@@ -57,8 +57,8 @@ public class TabFragment extends Fragment {
         public Fragment getItem(int position)
         {
             switch (position){
-                case 0 : return new SpotifyFragment();
-                case 1 : return new YouTubeFragment();
+                case 0 : return new TrendingFragment();
+                case 1 : return new TopTracksFragment();
                 case 2 : return new PodCastTabFragment();
             }
             return null;

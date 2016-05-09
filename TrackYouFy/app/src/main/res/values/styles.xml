@@ -1,17 +1,8 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@android:color/holo_blue_light</item>
-        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#FF4081</item>
     </style>
-    <style name="ProgressBar">
-        <item name="android:paddingTop">@dimen/top_padding</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:indeterminate">true</item>
-        <item name="android:layout_centerInParent">true</item>
-    </style>
-
 </resources>
