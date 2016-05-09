@@ -5,4 +5,23 @@
     <string name="list_item_track_name">List item track nam</string>
     <string name="action_settings">Settings</string>
 
+    <string-array name="nav_drawer_items">
+        <item>Spotify</item>
+        <item>Youtube</item>
+        <item>Podcast</item>
+
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/spotify_icon </item>
+        <item>@drawable/youtube_icon</item>
+        <item>@drawable/podcast_icon</item>
+
+    </array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="spotify">Spotify</string>
+    <string name="youtube">Youtube</string>
+    <string name="podcast">Podcast</string>
+
+
 </resources>
