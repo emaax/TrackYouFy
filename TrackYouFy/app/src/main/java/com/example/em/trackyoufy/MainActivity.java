@@ -1,6 +1,7 @@
 package com.example.em.trackyoufy;
 
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
@@ -27,24 +28,27 @@ public class MainActivity extends AppCompatActivity {
 
         mFragmentManager = getSupportFragmentManager();
         mFragmentTransaction = mFragmentManager.beginTransaction();
-        mFragmentTransaction.replace(R.id.containerView, new TabFragment()).commit();
+        mFragmentTransaction.replace(R.id.containerView, new Fragment()).commit();
 
 
         mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
                 mDrawerLayout.closeDrawers();
+                Fragment fragment = null;
 
 
                 if (menuItem.getItemId() == R.id.nav_item_spotify) {
+                    fragment = new SpotifyFragment();
                     FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView, new TabFragment()).commit();
+                    fragmentTransaction.replace(R.id.containerView, new SpotifyFragment()).commit();
 
                 }
 
                 if (menuItem.getItemId() == R.id.nav_item_youtube) {
+                    fragment = new YouTubeFragment();
                     FragmentTransaction fragTrans = mFragmentManager.beginTransaction();
-                    fragTrans.replace(R.id.containerView, new TabFragment()).commit();
+                    fragTrans.replace(R.id.containerView, new YouTubeFragment()).commit();
                 }
 
                 return false;
