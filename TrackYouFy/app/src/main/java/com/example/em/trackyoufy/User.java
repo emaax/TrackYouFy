@@ -1,3 +1,4 @@
+/*
 package com.example.em.trackyoufy;
 
 import android.content.Intent;
@@ -119,4 +120,5 @@ public class User extends AppCompatActivity implements
         Spotify.destroyPlayer(this);
         super.onDestroy();
     }
-}
+
+}*/
