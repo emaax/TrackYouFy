@@ -95,8 +95,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     /**
-     * When using the ActionBarDrawerToggle, you must call it during
-     * onPostCreate() and onConfigurationChanged()...
+     
      */
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
