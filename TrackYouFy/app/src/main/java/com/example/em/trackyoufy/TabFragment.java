@@ -1,3 +1,4 @@
+/*
 package com.example.em.trackyoufy;
 
 import android.os.Bundle;
@@ -11,9 +12,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+*/
 /**
  * Created by emiliaaxen on 16-05-05.
- */
+ *//*
+
 public class TabFragment extends Fragment {
     
         public static TabLayout tabLayout;
@@ -24,7 +27,7 @@ public class TabFragment extends Fragment {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-            View v =  inflater.inflate(R.layout.tab_layout,null);
+            View v =  inflater.inflate(R.layout.fragment_spotify,null);
             tabLayout = (TabLayout) v.findViewById(R.id.tabs);
             viewPager = (ViewPager) v.findViewById(R.id.viewpager);
 
@@ -50,9 +53,11 @@ public class TabFragment extends Fragment {
                 super(fm);
             }
 
-            /**
+            */
+/**
              * Returns the  fragment with based on the position .
-             */
+             *//*
+
 
             @Override
             public Fragment getItem(int position)
@@ -72,9 +77,11 @@ public class TabFragment extends Fragment {
 
             }
 
-            /**
+            */
+/**
              * This method returns the title of the tab according to the position.
-             */
+             *//*
+
 
             @Override
             public CharSequence getPageTitle(int position) {
@@ -98,3 +105,4 @@ public class TabFragment extends Fragment {
 
 
 
+*/
